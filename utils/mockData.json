@@ -1,0 +1,90 @@
+[
+  {
+    "company": "CTD",
+    "position": "Front-end",
+    "jobLocation": "NC",
+    "jobStatus": "pending",
+    "jobType": "internship",
+    "createdAt": "2024-08-22T21:26:23Z"
+  },
+  {
+    "company": "Cisco",
+    "position": "Cloud Security",
+    "jobLocation": "Palo Alto",
+    "jobStatus": "pending",
+    "jobType": "full-time",
+    "createdAt": "2024-10-21T21:26:23Z"
+  },
+  {
+    "company": "Target",
+    "position": "Checker",
+    "jobLocation": "SF",
+    "jobStatus": "pending",
+    "jobType": "part-time",
+    "createdAt": "2024-05-10T21:26:23Z"
+  },
+  {
+    "company": "Starbucks",
+    "position": "Barista",
+    "jobLocation": "Washington",
+    "jobStatus": "pending",
+    "jobType": "full-time",
+    "createdAt": "2024-01-11T21:26:23Z"
+  },
+  {
+    "company": "Red Hat",
+    "position": "HR",
+    "jobLocation": "NY",
+    "jobStatus": "declined",
+    "jobType": "part-time",
+    "createdAt": "2024-11-12T21:26:23Z"
+  },
+  {
+    "company": "Amazon",
+    "position": "Loader",
+    "jobLocation": "Washington",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2024-12-13T21:26:23Z"
+  },
+  {
+    "company": "Trulia",
+    "position": "Help Desk Technician",
+    "jobLocation": "Idaho",
+    "jobStatus": "pending",
+    "jobType": "part-time",
+    "createdAt": "2024-02-14T21:26:23Z"
+  },
+  {
+    "company": "SanDiego Zoo",
+    "position": "Zoo Keeper",
+    "jobLocation": "San Diego",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2024-10-15T21:26:23Z"
+  },
+  {
+    "company": "Hansen",
+    "position": "RDH",
+    "jobLocation": "NC",
+    "jobStatus": "pending",
+    "jobType": "internship",
+    "createdAt": "2024-03-25T21:26:23Z"
+  },
+  {
+    "company": "NetApp",
+    "position": "Finance",
+    "jobLocation": "SF",
+    "jobStatus": "interview",
+    "jobType": "internship",
+    "createdAt": "2024-09-25T21:26:23Z"
+  },
+  {
+    "company": "Amazon",
+    "position": "Developer",
+    "jobLocation": "Hayward",
+    "jobStatus": "interview",
+    "jobType": "full-time",
+    "createdAt": "2024-08-25T21:26:23Z"
+  }
+]
