@@ -45,9 +45,9 @@ if (process.env.NODE_ENV === "development") {
 }
 
 //PUBLIC - Es6
-// app.use(express.static(path.resolve(__dirname, "./client/dist")));
-app.use(express.static(path.resolve(__dirname, "./public")));
-//Cookie reader middleware
+app.use(express.static(path.resolve(__dirname, "./client/dist")));
+// app.use(express.static(path.resolve(__dirname, "./public")));
+// //Cookie reader middleware
 app.use(cookieParser());
 //Middleware-Built-in
 app.use(express.json());
