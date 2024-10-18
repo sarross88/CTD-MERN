@@ -66,8 +66,12 @@ app.use("/api/v1/jobs", authenticateUser, jobRouter);
 app.use("/api/v1/users", authenticateUser, userRouter);
 app.use("/api/v1/auth", authRouter);
 
+//LOCAL BUILD
+// app.get("*", (req, res) => {
+//   res.sendFile(path.resolve(__dirname, "./public", "index.html"));
+// });
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./public", "index.html"));
+  res.sendFile(path.resolve(__dirname, "./client/dist", "index.html"));
 });
 
 //LAST ditch error Middleware added to all urls and methods
