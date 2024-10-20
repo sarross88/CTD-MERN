@@ -22,6 +22,7 @@ import path from 'path'
 
 //PATH
 const __dirname = dirname(fileURLToPath(import.meta.url))
+console.log(__dirname)
 
 //routers
 import jobRouter from './routes/jobRouter.js'
@@ -45,8 +46,9 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 //PUBLIC - Es6
-// app.use(express.static(path.resolve(__dirname, "./client/dist")));
-// app.use(express.static(path.resolve(__dirname, "./public")));
+app.use(express.static(path.resolve(__dirname, './client/dist')))
+// app.use(express.static(path.resolve(__dirname, './public')))
+console.log(path.resolve(__dirname, './client/dist'))
 // //Cookie reader middleware
 app.use(cookieParser())
 //Middleware-Built-in
@@ -67,10 +69,10 @@ app.use('/api/v1/users', authenticateUser, userRouter)
 app.use('/api/v1/auth', authRouter)
 
 //LOCAL BUILD
-// app.get("*", (req, res) => {
-//   res.sendFile(path.resolve(__dirname, "./public", "index.html"));
-// });
-app.use(express.static(path.resolve(__dirname, './client/dist')))
+// app.get('*', (req, res) => {
+//   res.sendFile(path.resolve(__dirname, './public', 'index.html'))
+// })
+// app.use(express.static(path.resolve(__dirname, './client/dist')))
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, './client/dist', 'index.html'))
